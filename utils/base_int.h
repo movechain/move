@@ -29,7 +29,7 @@ a bug in operator*.
 Thanks to Franois Dessenne for convincing me
 to do a general rewrite of this class.
 */
-
+ 
 #ifndef __UINT128_T__
 #define __UINT128_T__
 
@@ -50,6 +50,7 @@ public:
 	// Constructors
 	uint128_t();
 	uint128_t(const uint128_t & rhs);
+	uint128_t(const uint32_t & rhs);
 
 	template <typename T> explicit uint128_t(const T & rhs) {
 		UPPER = 0;

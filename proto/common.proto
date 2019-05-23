@@ -6,6 +6,7 @@ message KeyPair{
 	string key = 1;
 	string value = 2;
 	int64 version = 3;
+	int64 data = 4;
 }
 
 message Signature {
