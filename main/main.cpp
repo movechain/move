@@ -19,7 +19,8 @@
 void SaveWSPort();
 void RunLoop();
 int main(int argc, char *argv[]){
-	
+  
+   RunLoop();
 	return 0;
 }
 

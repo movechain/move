@@ -39,7 +39,7 @@ public:
 	uint256 get_sha512_half ();
 	bool	add_serializer (Serializer &s);
 	std::size_t	peek_data_size ();
-	
+	  
 private:
 	std::vector <char> data_;
 };
